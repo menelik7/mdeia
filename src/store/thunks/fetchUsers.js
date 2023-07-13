@@ -3,13 +3,12 @@ import axios from "axios";
 
 const fetchUsers = createAsyncThunk("users/fetch", async () => {
 	const response = await axios.get("http://localhost:3005/users");
-	const { data } = response;
 
 	// DEV ONLY
-	await pause(3000);
+	await pause(1000);
 	//
 
-	return data;
+	return response.data;
 });
 
 // DEV ONLY
