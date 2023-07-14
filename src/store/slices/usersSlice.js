@@ -6,8 +6,8 @@ import { removeUser } from "../thunks/removeUser";
 const usersSlice = createSlice({
 	name: "users",
 	initialState: {
-		data: [],
 		isLoading: false,
+		data: [],
 		error: null,
 	},
 	extraReducers(builder) {
