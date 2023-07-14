@@ -1,10 +1,32 @@
 {
-  "users": [
-    {
-      "name": "Myra",
-      "id": 1
-    }
-  ],
-  "albums": [],
-  "photos": []
+	"users": [
+		{
+			"name": "Myra Speøth",
+			"id": 1
+		},
+		{
+			"name": "Laurence Ratke",
+			"id": 2
+		},
+		{
+			"name": "Myron Durgan-Casper",
+			"id": 3
+		},
+		{
+			"name": "Lynn Zboncak",
+			"id": 4
+		},
+		{
+			"name": "Marion Rogahn",
+			"id": 5
+		}
+	],
+	"albums": [
+		{
+			"id": 20,
+			"title": "Playing Tennis",
+			"userId": 1
+		}
+	],
+	"photos": []
 }
