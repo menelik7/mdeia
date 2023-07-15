@@ -29,32 +29,6 @@
       "id": 7
     }
   ],
-  "albums": [
-    {
-      "id": 20,
-      "title": "Playing Tennis",
-      "userId": 1
-    },
-    {
-      "userId": 5,
-      "title": "Tasty Granite Sausages",
-      "id": 21
-    },
-    {
-      "userId": 5,
-      "title": "Intelligent Bronze Computer",
-      "id": 23
-    },
-    {
-      "userId": 7,
-      "title": "Generic Rubber Chips",
-      "id": 25
-    },
-    {
-      "userId": 1,
-      "title": "Fantastic Concrete Fish",
-      "id": 26
-    }
-  ],
+  "albums": [],
   "photos": []
 }

@@ -14,7 +14,12 @@ export function UsersListItem({ user }) {
 
 	const header = (
 		<>
-			<Button danger className="mr-3" loading={isLoading} onClick={handleClick}>
+			<Button
+				danger
+				className="mr-3 rounded-md"
+				loading={isLoading}
+				onClick={handleClick}
+			>
 				<GoTrash />
 			</Button>
 			{error && <div>Error removing user...</div>}
