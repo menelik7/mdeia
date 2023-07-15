@@ -23,6 +23,10 @@
     {
       "name": "Nathaniel Roberts",
       "id": 6
+    },
+    {
+      "name": "Suzanne Hamill",
+      "id": 7
     }
   ],
   "albums": [
@@ -37,24 +41,19 @@
       "id": 21
     },
     {
-      "userId": 1,
-      "title": "Unbranded Steel Salad",
-      "id": 22
-    },
-    {
       "userId": 5,
       "title": "Intelligent Bronze Computer",
       "id": 23
     },
     {
-      "userId": 1,
-      "title": "Recycled Frozen Mouse",
-      "id": 24
+      "userId": 7,
+      "title": "Generic Rubber Chips",
+      "id": 25
     },
     {
       "userId": 1,
-      "title": "Small Plastic Table",
-      "id": 25
+      "title": "Fantastic Concrete Fish",
+      "id": 26
     }
   ],
   "photos": []
