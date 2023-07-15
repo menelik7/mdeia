@@ -19,6 +19,10 @@
     {
       "name": "Marion Rogahn",
       "id": 5
+    },
+    {
+      "name": "Nathaniel Roberts",
+      "id": 6
     }
   ],
   "albums": [
@@ -41,6 +45,16 @@
       "userId": 5,
       "title": "Intelligent Bronze Computer",
       "id": 23
+    },
+    {
+      "userId": 1,
+      "title": "Recycled Frozen Mouse",
+      "id": 24
+    },
+    {
+      "userId": 1,
+      "title": "Small Plastic Table",
+      "id": 25
     }
   ],
   "photos": []

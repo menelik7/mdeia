@@ -14,7 +14,7 @@ export default function AlbumsList({ user }) {
 	let content;
 
 	if (isLoading) {
-		return <Skeleton numberOfLines={3} />;
+		return <Skeleton className="h-10 w-full" numberOfLines={3} />;
 	} else if (error) {
 		return <div>Error loading content...</div>;
 	} else {
@@ -32,8 +32,14 @@ export default function AlbumsList({ user }) {
 	return (
 		<div>
 			<div className="flex flex-row justify-between items-center mb-3">
-				<div>Albums for {user.name}</div>
-				<Button onClick={handleAddAlbum}>+ add Album</Button>
+				<h3 className="text-lg font-bold">Albums for {user.name}</h3>
+				<Button
+					className="justify-center min-w-[108px]"
+					loading={results.isLoading}
+					onClick={handleAddAlbum}
+				>
+					+ add Album
+				</Button>
 			</div>
 			<div>{content}</div>
 		</div>
